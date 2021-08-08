@@ -1,12 +1,10 @@
-using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Microsoft.Extensions.Logging.Abstractions;
-
-using System.Text.Json;
-using System.Threading.Tasks;
-
 using InventoryPortalWebApp.Controllers;
 using InventoryPortalWebApp.Model;
 using InventoryPortalWebApp.Service;
+using Microsoft.Extensions.Logging.Abstractions;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using System.Text.Json;
+using System.Threading.Tasks;
 
 namespace InventoryPortalWebAppSpec.Acceptance
 {

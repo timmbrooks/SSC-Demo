@@ -20,7 +20,7 @@ namespace InventoryPortalWebApp
         public void ConfigureServices(IServiceCollection services)
         {
             services.Configure<RuntimeConfig>(Configuration.GetSection("Runtime"));
-            services.AddScoped<IRequestsProvider, FileDataService>();
+            services.AddScoped<IRequestsProvider, MockiDataService>();
             services.AddControllersWithViews();
             services.AddSpaStaticFiles(configuration =>
             {

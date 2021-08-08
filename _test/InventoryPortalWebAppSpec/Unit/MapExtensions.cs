@@ -1,7 +1,6 @@
-﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
-
-using InventoryPortalWebApp.Model;
+﻿using InventoryPortalWebApp.Model;
 using InventoryPortalWebApp.Utility;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace InventoryPortalWebAppSpec.Unit
 {
