@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31321.278
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryPortalWebApp", "InventoryPortalWebApp\InventoryPortalWebApp.csproj", "{117364D5-C88B-458E-9678-020523E7EAC5}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{0DA699FB-3BC3-42AB-BB4B-8C2E572ADAC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InventoryPortalWebAppSpec", "_test\InventoryPortalWebAppSpec\InventoryPortalWebAppSpec.csproj", "{AAD9E6EF-90E9-41DC-84AB-26B47F171CAC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{117364D5-C88B-458E-9678-020523E7EAC5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{117364D5-C88B-458E-9678-020523E7EAC5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{117364D5-C88B-458E-9678-020523E7EAC5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{117364D5-C88B-458E-9678-020523E7EAC5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAD9E6EF-90E9-41DC-84AB-26B47F171CAC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAD9E6EF-90E9-41DC-84AB-26B47F171CAC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAD9E6EF-90E9-41DC-84AB-26B47F171CAC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAD9E6EF-90E9-41DC-84AB-26B47F171CAC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AAD9E6EF-90E9-41DC-84AB-26B47F171CAC} = {0DA699FB-3BC3-42AB-BB4B-8C2E572ADAC9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {18FE926C-F304-41E0-8726-E1A4563C4325}
+	EndGlobalSection
+EndGlobal

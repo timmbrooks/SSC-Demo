@@ -1,0 +1,23 @@
+<h1>Pending Requests</h1>
+
+<p *ngIf="!(requests || error)"><em>Loading...</em></p>
+<p *ngIf="error">An error occured.</p>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="requests">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>Item</th>
+      <th>Requested</th>
+      <th>Available</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let request of requests">
+      <td>{{ request.Id }}</td>
+      <td>{{ request.Name }}</td>
+      <td>{{ request.Requested }}</td>
+      <td>{{ request.Available }} <span *ngIf="request.Available < request.Requested" class="badge rounded-pill bg-danger">* Insufficient inventory available *</span></td>
+    </tr>
+  </tbody>
+</table>
